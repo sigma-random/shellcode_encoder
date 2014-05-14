@@ -121,8 +121,8 @@ def SeparateIntoAsiccValue(val,count,maxcount=3,random=True):
 
 		value = (byte / count)
 		if not CheckIsAsiccByte(value):
-			print('[!] find bad byte1 value:0x%02x'%value)
-			print('[!] turn to separate %d AsiccValues!!'%(count+1))
+			#print('[!] find bad byte1 value:0x%02x'%value)
+			#print('[!] turn to separate %d AsiccValues!!'%(count+1))
 			return SeparateIntoAsiccValue(val,count+1,maxcount,random)	
 
 		mark = 0
