@@ -16,6 +16,7 @@ NDISASM_COMMAND_FORMAT  = r'%s -b %d - '
 
 # NEDT global options
 OPTIONS = {
+"debug"             :   (True,"debug info"),
 "system"            :   ("win32", "system version: linux / win32"),
 "mode"              :   (32, "mode: 16/32/64 bits assembly"),
 "search_bytes"  	:	(16, "rop gadgets search depth, 16 bytes at most"),
